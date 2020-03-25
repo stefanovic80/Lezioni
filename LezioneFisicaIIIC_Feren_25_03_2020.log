@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  25 MAR 2020 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  25 MAR 2020 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,7 +186,17 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen138
 \Gm@dimlist=\toks21
 )
-(./LezioneFisicaIIIC_Feren_25_03_2020.aux)
+(./LezioneFisicaIIIC_Feren_25_03_2020.aux
+
+LaTeX Warning: Label `eq:sistema' multiply defined.
+
+
+LaTeX Warning: Label `eq:sistema' multiply defined.
+
+
+LaTeX Warning: Label `eq:sistema' multiply defined.
+
+)
 \openout1 = `LezioneFisicaIIIC_Feren_25_03_2020.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -201,8 +211,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen139
@@ -355,23 +364,29 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 56.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./campoB.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./campoB.jpg>] [2]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 101.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 104.
 
-[2] [3] (./LezioneFisicaIIIC_Feren_25_03_2020.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 116.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 134.
+
+[3] [4] [5] (./LezioneFisicaIIIC_Feren_25_03_2020.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3346 strings out of 492982
- 50128 string characters out of 6134896
- 119725 words of memory out of 5000000
- 6867 multiletter control sequences out of 15000+600000
+ 3348 strings out of 492982
+ 50148 string characters out of 6134896
+ 118774 words of memory out of 5000000
+ 6869 multiletter control sequences out of 15000+600000
  10845 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,28p,484b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,17n,28p,558b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -380,11 +395,11 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/latxfont/line10.pfb>
-Output written on LezioneFisicaIIIC_Feren_25_03_2020.pdf (3 pages, 80919 bytes)
+Output written on LezioneFisicaIIIC_Feren_25_03_2020.pdf (5 pages, 90071 bytes)
 .
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,6 +5,7 @@
 \usepackage{setspace}
 \usepackage{amsmath,amssymb}
 \usepackage{IEEEtrantools}
+\usepackage{cancel}
 
 \usepackage{geometry}
  \geometry{
@@ -74,17 +75,39 @@ E sostituendo nella seconda, si ha
 
 e quindi
 
-\begin{equation}
-	\frac{\Delta \alpha_1r}{V_1}\cdot\frac{V_2}{r} = 2\pi - \Delta\alpha_1
-\end{equation}
-
-
-
-\section{Introduction}
-
-Calcolare il risultato della seguente equazione
 \begin{eqnarray}
-	x = 2 + 2
+	\nonumber & \frac{\Delta \alpha_1\cancel{r} }{V_1}\cdot\frac{V_2}{ \cancel{r} } = 2\pi - \Delta\alpha_1 \\ 
+	\nonumber & \Delta \alpha_1\cdot\frac{V_2}{V_1} = 2\pi - \Delta\alpha_1\\ 
+	\nonumber & \Delta\alpha_1\frac{V_2}{V_1} + \Delta\alpha_1 = 2\pi\\ 
+	\nonumber & \Delta\alpha_1 \left(\frac{V_2}{V_1} + 1 \right) = 2\pi 
 \end{eqnarray}
+
+E quindi l'angolo descritto dal primo punto materiale, quello descritto dal secondo e il tempo richiesto sono
+\begin{eqnarray}
+	\Delta\alpha_1 = \frac{2\pi V_2}{V_1 + V_2}\qquad \Delta\alpha_2 = 2\pi - \alpha_1 \qquad \Delta t = \frac{\Delta\alpha_1r}{V_2}
+\end{eqnarray}
+
+Mettendo i numeri
+\begin{eqnarray}
+	& & \Delta\alpha_1 = \frac{2\pi \cdot 3m/s}{3m/s + 6m/s} = 0.70 rad\\
+	& & \Delta\alpha_2 = 5.58 rad \\
+	& & \Delta t = \frac{0.70rad \cdot 0.15}{6m/s} = 0.017 s
+\end{eqnarray}
+
+\section{Esercizio}
+
+
+{ \Large \begin{IEEEeqnarray}{lCr}
+ {\setstretch{2.25}%Distance between two following lines
+\left\{ \begin{array}{ccc}
+m_3a & = & m_3g - \tau_3 \\ 
+m_1a & = & \tau_3 - \tau_2\\
+m_2a & = & -mg + \tau_2
+\end{array}
+\right. } \label{eq:sistema}
+\end{IEEEeqnarray} }
+
+
+
 
 \end{document}

@@ -18,7 +18,7 @@
 \begin{document}
 
 
-\section{Esercizio n 1}
+\section{Esercizio}
 
 Due punti materiali, sono vincolati a muoversi su di una guida circolare di raggio $r = 15 cm$. Ad un certo istante i due punti occupano la stessa posizione e si muovono in versi opposti con velocit\'a di modulo costante, pari a $v_1 = 3m/s$ e $v_2 = 6m/s$. Determinare dopo quanto tempo si incontrano di nuovo e l'arco di traiettoria percorsa da ciascuno dei due punti.\\
 
@@ -36,7 +36,7 @@ Due punti materiali, sono vincolati a muoversi su di una guida circolare di ragg
 \begin{minipage}{0.65\textwidth}
 	\begin{tabular}{|p{\textwidth}}		
 		\centering
-    	\includegraphics[width=2.0in]{campoB.jpg}
+    	\includegraphics[width=2.0in]{Clipboard01.jpg}
     	\label{fig:sample_figure}		
 	\end{tabular}
 	
@@ -99,8 +99,18 @@ Mettendo i numeri
 
 Un corpo di massa $m_1$ pu\'o scorrere senza attrito su di una superficie orizzontale. Due fili inestensibili e di massa trascurabile lo collegano, tramite due carrucole fisse e lisce, con due corpi di massa $m_2$ e $m_3$ (vedi figura in allegato). Se $m_2$ diverso da $m_3$, il sistema si mette in moto. Calcolare il modulo della accelerazione della massa $m_1$, se $m_1 = m_2$ e $m_3 = 2m_2$.
 
+\vspace{1.5cm}
 
-{ \Large \begin{IEEEeqnarray}{lCr}
+
+	\begin{tabular}{p{\textwidth}}		
+		\centering
+    	\includegraphics[width=2.5in]{EsercizioCarrucole.png}
+    	\label{fig:sample_figure}		
+	\end{tabular}
+
+
+%{ \Large 
+\begin{IEEEeqnarray}{lCr}
  {\setstretch{2.25}%Distance between two following lines
 \left\{ \begin{array}{ccc}
 m_3a & = & m_3g - \tau_3 \\ 
@@ -108,11 +118,13 @@ m_1a & = & \tau_3 - \tau_2\\
 m_2a & = & -m_2g + \tau_2
 \end{array}
 \right. } \label{eq:sistema}
-\end{IEEEeqnarray} }
+\end{IEEEeqnarray} 
+%}
 
 Secondo l'esercizio $m_1 = m_2$ e $m_3 = 2m_2$. Chiamo $m = m_1$ e quindi posso scrivere
 
-{ \Large \begin{IEEEeqnarray}{lCr}
+%{ \Large 
+\begin{IEEEeqnarray}{lCr}
  {\setstretch{2.25}%Distance between two following lines
 \left\{ \begin{array}{ccc}
 2ma & = & 2mg - \tau_3 \\ 
@@ -120,7 +132,7 @@ ma & = & \tau_3 - \tau_2\\
 ma & = & -mg + \tau_2
 \end{array}
 \right. } \label{eq:sistema}
-\end{IEEEeqnarray} }
+\end{IEEEeqnarray} %}
 
 L'ultima equazione diventa 
 
@@ -130,7 +142,8 @@ L'ultima equazione diventa
 
 e quindi
 
-{ \Large \begin{IEEEeqnarray}{lCr}
+%{ \Large 
+\begin{IEEEeqnarray}{lCr}
  {\setstretch{2.25}%Distance between two following lines
 \left\{ \begin{array}{ccc}
 2ma & = & 2mg - \tau_3 \\ 
@@ -138,7 +151,7 @@ ma & = & \tau_3 - \tau_2\\
 \tau_2 & = & ma + mg = m(a +g)
 \end{array}
 \right. } \label{eq:sistema}
-\end{IEEEeqnarray} }
+\end{IEEEeqnarray} %}
 
 Sostituendo l'espressione di $\tau_2$ nell'ultima equazione, la penultima equazione la si pu\'o scrivere
 \begin{eqnarray}
@@ -153,7 +166,7 @@ Che, sostituita nella prima, si ha
 
 Ossia
 \begin{equation}
-	a = g/4 = 9.81m/s^2/4 = 2.45m
+	a = g/4 = 9.81m/s^2/4 = 2.45m/s^2
 \end{equation}
 
 \section{Pag 279 n 62}
@@ -164,10 +177,10 @@ L'equazione del momento della forza \'e
 	M = I\dot{\omega}
 \end{eqnarray}
 
-Il momento d'inerzia $I$ di una asta omogenea rispetto ad un asse passante per il centro di massa \'e 
+Il momento d'inerzia $I$ di una asta omogenea di lunghezza $l$, rispetto ad un asse passante per il centro di massa \'e 
 
 \begin{eqnarray}
-	I = \frac{1}{12}mr^2
+	I_{cm} = \frac{1}{12}ml^2
 \end{eqnarray}
 
 L'asta \'e vincolata a muoversi attorno ad una sua estremit\'a , distante $l/2$ dal centro di massa, il momento d'inerzia \'e
@@ -202,7 +215,7 @@ Da cui si deduce che
 
 Questo \'e l'accelerazione dell'asta quando si trova disposta orizzontalemente, nell'istante in cui viene lasciata ruotare attorno al perno. L'accelerazione nell'istante in cui forma un angolo di 30 gradi con l'orizzontale va fatta tenendo conto che il momento \'e un prodotto vettoriale tra forza e braccio e, in quanto tale, il suo modulo \'e $Fb\sin{\alpha}$, ove $\alpha$ \'e l'angolo che i due vettori, forza e braccio formano tra loro. Nel caso specifico $\pi/3$. L'accelerazione angolare, quindi, \'e
 \begin{eqnarray}
-	\dot{\omega} = \frac{2g\sin{\pi/3} }{2L} = \frac{2\cdot 9.8 m/s^2}{2\cdot 0.5 m} = 25.5rad/s^2
+	\dot{\omega} = \frac{3g\sin{\pi/3} }{2L} = \frac{3\cdot 9.8 \cancel{m}/s^2}{2\cdot 0.5 \cancel{m}} = 25.5rad/s^2
 \end{eqnarray}
 
 \end{document}

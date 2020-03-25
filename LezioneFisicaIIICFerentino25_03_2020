@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{center}
+	{\bf Teorema della Circuitazione di Ampere}
+\end{center}
+
+
+Due punti materiali, sono vincolati a muoversi su di una guida circolare di raggio r = 15 cm. Ad un certo istante i due punti occupano la stessa posizione e si muovono in versi opposti con velocità di modulo costante, pari a v_1 = 3m/s e v_2 = 6m/s. Determinare dopo quanto tempo si incontrano di nuovo e l'arco di traiettoria percorsa da ciascuno dei due punti.
+
+\begin{equation}
+	C_{\gamma}(\vec{B}) = \mu_0 i
+\end{equation}
+Oppure, pu\'o esser scritto cos\'i
+\begin{eqnarray}
+	\int_{\gamma}\vec{B}\cdot\vec{l} = \mu_0 
+\end{eqnarray}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=4cm]{campoB.jpg}
+		\caption{Circuito circolare visto in prospettiva ove viene effettuata la circuitazione del campo di induzione magnetica $\vec{B}$}
+	\end{center}
+\end{figure}
+
+\section{Introduction}
+
+Calcolare esercizio pag 376 n 282
+
+\begin{itemize}
+	\item $\left(x^2-3\right)\left(x^2+3\right)\left(x^4+9\right) =$ \\
+	\item $= \left(x^4-9\right)\left(x^4+9\right) = $
+	\item $= \left(x^8-81\right) $
+\end{itemize}
+
+\end{document}

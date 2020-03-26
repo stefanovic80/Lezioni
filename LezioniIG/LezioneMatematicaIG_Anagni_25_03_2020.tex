@@ -1,0 +1,66 @@
+%\documentclass[12pt]{report}
+%\documentclass[12pt]{extreport}
+\documentclass[17pt]{extarticle}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+\usepackage{IEEEtrantools}
+\usepackage{cancel}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,264mm},
+ left=20mm,
+ top=10mm,
+ }
+
+\begin{document}
+
+Scomposizione in fattori primi
+
+\section{Pag 430 n 105}
+\begin{eqnarray}
+	100x^2 -16x^2y^8
+\end{eqnarray}
+
+Scomposizione in fattori primi: $100 = 2^2\cdot5^2$, $16 = 2^4$
+\begin{itemize}
+\item
+\begin{eqnarray}
+	& & 100x^6 -16x^2y^8 = \\
+	& & 4x^2\left(25x^6 -4y^8\right) = 4x^2\left( 5x^3 - 2y^4\right)\left( 5x^3 + 2y^4\right) 
+\end{eqnarray}
+
+\item
+\begin{eqnarray}\nonumber
+	& & 12(a^4-1) = 12(a^2-1)(a^2+1)=(a-1)(a+1)(a^2+1) 
+\end{eqnarray}
+
+\item 
+\begin{eqnarray}
+	& & 7x^{12}-7y^8 = 7(x^{12}-y^8) = 7(x^6-y^4)(x^6+y^4) = \\
+	& & =7(x^3-y^2)(x^3+y^2)(x^6+y^4) 
+\end{eqnarray}
+
+\end{itemize}
+
+
+\section{N106 Pag 430}
+
+\begin{itemize}
+\item
+\begin{eqnarray}
+	& & 3xy^2 - 3x^2 = 3x(y^2-x^2) = 3x(x +y)(x-y)
+\end{eqnarray}
+
+\item
+\begin{eqnarray}
+	& & 5b^2(b-3)-b^2+9 = 5b^2(b-3) -(b^2-9) = \\
+	& & = 5b^2(b-3) - (b-3)(b+3) = (b-3)(5b^2-(b+3)) =\\
+	& & = (b-3)(5b^2-b-3)
+\end{eqnarray}
+
+\end{itemize}
+
+\end{document}

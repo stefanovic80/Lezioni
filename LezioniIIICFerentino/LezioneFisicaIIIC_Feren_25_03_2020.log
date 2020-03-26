@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  25 MAR 2020 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  26 MAR 2020 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,20 +186,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen138
 \Gm@dimlist=\toks21
 )
-(./LezioneFisicaIIIC_Feren_25_03_2020.aux
-
-LaTeX Warning: Label `fig:sample_figure' multiply defined.
-
-
-LaTeX Warning: Label `eq:sistema' multiply defined.
-
-
-LaTeX Warning: Label `eq:sistema' multiply defined.
-
-
-LaTeX Warning: Label `eq:sistema' multiply defined.
-
-)
+No file LezioneFisicaIIIC_Feren_25_03_2020.aux.
 \openout1 = `LezioneFisicaIIIC_Feren_25_03_2020.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -214,7 +201,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen139
@@ -365,6 +352,9 @@ Overfull \hbox (23.77477pt too wide) in paragraph at lines 27--44
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 56.
 
+
+LaTeX Warning: Reference `eq:sistema' on page 1 undefined on input line 65.
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Clipboard01.jpg>]
@@ -394,13 +384,16 @@ LaTeX Font Warning: Command \normalsize invalid in math mode on input line 147.
 [3 <./EsercizioCarrucole.png>] [4] [5]
 (./LezioneFisicaIIIC_Feren_25_03_2020.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3354 strings out of 492982
- 50306 string characters out of 6134896
- 119774 words of memory out of 5000000
+ 3352 strings out of 492982
+ 50228 string characters out of 6134896
+ 119701 words of memory out of 5000000
  6873 multiletter control sequences out of 15000+600000
  10845 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -413,7 +406,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/latxfont/line10.pfb>
-Output written on LezioneFisicaIIIC_Feren_25_03_2020.pdf (5 pages, 1000220 byte
+Output written on LezioneFisicaIIIC_Feren_25_03_2020.pdf (5 pages, 1000600 byte
 s).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)

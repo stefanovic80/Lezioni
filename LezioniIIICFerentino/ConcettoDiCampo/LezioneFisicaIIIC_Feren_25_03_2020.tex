@@ -1,0 +1,139 @@
+%\documentclass[12pt]{report}
+%\documentclass[12pt]{extreport}
+\documentclass[17pt]{extarticle}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+\usepackage{IEEEtrantools}
+\usepackage{cancel}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,264mm},
+ left=20mm,
+ top=10mm,
+ }
+
+\begin{document}
+
+
+\section{Forze a distanza}
+
+I tre principali tipi di forza a distanza sono
+\begin{itemize}
+	\item Forza Gravitazionale
+	\item Forza Elettostatica
+	\item Forza Magnetica
+\end{itemize}
+
+Nel presente paragrafo trattiamo soltanto le prime due, essendo l'espressione matematica della forza magnetica pi\'u complicata delle altre. 
+
+La forza gravitazionale \'e espressa dalla {\bf Legge di Gravitazione Universale} di Newton
+
+\begin{eqnarray}\label{eq:CGU}
+	F = G \frac{mM}{r^2}
+\end{eqnarray}
+
+Ove la Costante di Gravitazione Universale vale $G = 6.67\cdot 10^{11}\frac{Nm^2}{kg^2}$. Tale forza ha direzione \emph{radiale}, ossia va lungo la congiungente i due corpi di massa $m$ e $M$ ed \'e sempre di natura attrattiva.
+
+La forza di interazione elettrostatica, invece,\'e espressa dalla {\bf Legge di Coulomb}
+
+\begin{eqnarray}
+	F = k\frac{q_1q_2}{r^2}
+\end{eqnarray}
+
+Pi\'u sovente, espressa nel seguente modo:
+
+\begin{eqnarray}\label{eq:Coulomb}
+	F = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r^2}
+\end{eqnarray}
+
+ove la {\bf Costante Dielettrica del Vuoto} vale $\epsilon_0 = 8.85\cdot 10^{-12}\frac{C^2}{Nm^2}$. Anche la forza elettrostatica \'e di natura \emph{radiale} soltanto che, a seconda del segno delle due cariche $q_1$ e $q_2$ in gioco, pu\'o essere di natura attrattiva o repulsiva.
+
+
+
+
+\section{Concetto di Campo}
+
+
+
+L'equazione \ref{eq:CGU} pu\'o essere separata in due termini: 
+\begin{eqnarray}\label{eq:campoGrav}
+	g & = & G\frac{M}{r^2}\\ \label{eq:forzaGrav}
+	F & = & mg
+\end{eqnarray}
+
+Ove la \ref{eq:campoGrav} esprime il {\bf Campo Gravitazionale} generato dal corpo di massa $M$ a distanza $r$ e l'equazione \ref{eq:forzaGrav} esprime la forza a cui \'e soggetto il corpo di massa $m$ sottoposto al campo gravitazionale g. 
+
+Come \'e ben noto, il campo gravitazionale sulla superficie della terra \'e $9,81m/s^2$. Inoltre, essendo la forza una grandezza di tipo vettoriale, anche il campo $g$, proporzionale alla forza, \'e un \emph{campo di natura vettoriale}. 
+
+\'E evidente che si pu\'o fare qualcosa di analogo con la forza elettrostatica: separando l'equazione \ref{eq:Coulomb} in due termini si ha
+
+
+\begin{eqnarray}\label{eq:campoEl}
+	E & = & \frac{1}{4\pi\epsilon_0}\frac{q}{r^2}\\ \label{eq:forzaEl}
+	F & = & q_{e}E
+\end{eqnarray}
+
+
+
+Ove la \ref{eq:campoEl} esprime il {\bf Campo elettrostatico} generato da un corpo dotato di carica $q$ a distanza $r$ e l'equazione \ref{eq:forzaEl} esprime la forza a cui \'e soggetto un altro corpo, dotato di carica $q_{e}$ (spesso chiamata \emph{carica esploratrice}) e sottoposto a un campo elettrostatico $E$. Da notare che il campo gravitazionale $g$ \'e una accelerazione, il campo elettrico $E$ \emph{non} \'e una accelerazione, ma una nuova grandezza esprimibile in $Volt/m$ o $Newton/Coulomb$.
+
+\section{Esempi}
+
+Un corpo sulla superficie terrestre \'e sottoposto a un campo gravitazionale dato dalla equazione \ref{eq:campoGrav} ove
+\begin{itemize}
+	\item $G = 6.67\cdot 10^{11}\frac{Nm^2}{kg^2}$
+	\item $r = 6400km = 6.4\cdot 10^{6}m$ (raggio medio della terra)
+	\item $M = 5.98\cdot 10^{24}kg$ (massa della terra)
+\end{itemize}
+
+Il valore di tale campo \'e \footnote{Calcolo dimensionale: $\frac{N\cancel{m}^2\cancel{kg} }{kg^{\cancel{2} }\cancel{m}^2} = m/s^2$}
+\begin{eqnarray}\label{eq:campoGT}
+ g = 6.67\cdot 10^{11}\frac{Nm^2}{kg^2}\frac{5.98\cdot 10^{24}kg}{(6.4\cdot 10^{6}m)^2} = 9.81m/s^2
+\end{eqnarray}
+
+Se poniamo un corpo ad una distanza dal centro della terra pari al doppio del raggio della terra allora, dalla equazione \ref{eq:campoGT} si deduce che il campo gravitazionale si riduce di un fattore 4 (e non 2). Questo perch\'e la distanza a denominatore \'e riportata alla seconda potenza, come si vede dal seguente calcolo
+
+
+\begin{eqnarray}\label{eq:campoGT}
+ g = 6.67\cdot 10^{11}\frac{Nm^2}{kg^2}\frac{5.98\cdot 10^{24}kg}{(12.8\cdot 10^{6}m)^2} = 2.45m/s^2
+\end{eqnarray}
+
+\vspace{2cm}
+
+Studiamo, ora, il campo elettrico a cui \'e soggetto l'elettrone (unico!) dell'atomo di idrogeno quando si trova a orbitare intorno al nucleo, costituito da un unico protone\footnote{L'atomo di idrogeno \'e costituito da un protone e un elettrone che orbita intorno. In realt\'a esistono in natura anche \emph{isotopi} dell'atomo di idrogeno: atomi che hanno stesso numero atomico dell'idrogeno, ma un numero di neutroni variabile. In particolare, nel caso dell'idrogeno, esiste il \emph{deuterio} e il \emph{trizio}, ossia isotopi che pesano 2 volte o 3 volte di pi\'u, a causa della presenza di, rispettivamente, un neutrone e due neutroni in pi\'u.}
+
+
+\begin{eqnarray}\label{eq:Bohr}
+	E = 8.99\cdot 10^9Nm^2C^{-2}\cdot\frac{1.6\cdot 10^{-19}C }{(5.29\cdot 10^{-11})^2} = 5.14\cdot 10^{11}N/C.
+\end{eqnarray}
+
+
+Ove la distanza $r$ dell'elettrone dal nucleo \'e nota come \emph{Raggio di Bohr}.
+
+La forza che l'elettrone subisce a causa della presenza del campo elettrico \ref{eq:Bohr} indotto dal nucleo \'e 
+
+
+\begin{eqnarray}
+	F = q_eE = -1.6\cdot 10^{-19}C\cdot 5.14\cdot 10^{11}N/C = 8.2\cdot 10^{-8} N
+\end{eqnarray}
+
+e, data la massa dell'elettrone $m_e= 9.31\cdot 10^{-31}kg$ l'accelerazione risulta
+
+\begin{eqnarray}
+	a = \frac{F}{m_e} = \frac{8.2\cdot 10^{-8}N}{9.31\cdot 10^{-31}kg } = 9\cdot 10^{22}m/s^2
+\end{eqnarray}
+
+Ancora, si pu\'o ricavare la velocit\'a dell'elettrone intorno al nucleo tenendo conto che l'accelerazione centrifuga nel moto circolare uniforme \'e 
+
+\begin{eqnarray}
+	a_c = v^2/r
+\end{eqnarray}
+	
+C'\'e da precisare, tuttavia, che la Meccanica Newtoniana fin qui usata, mentre si applica bene per lo studio di fenomeni su grandi scale, risulta \emph{inadeguata} per lo studio di fenomeni su scala atomica e molecolare. Su tale scala, si usa la \emph{Meccanica Quantistica}, una teoria della fisica nata negli anni '30 del ventesimo secolo proprio a partire dalla necessit\'a di poter correttamente predire fenomeni su scale dell'ordine di grandezza delle dimensioni di atomi, nuclei e molecole.	
+	
+	
+
+\end{document}

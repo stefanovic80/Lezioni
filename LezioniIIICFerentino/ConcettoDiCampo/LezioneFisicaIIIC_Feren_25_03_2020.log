@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  6 APR 2020 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  30 MAR 2020 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,7 +186,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen138
 \Gm@dimlist=\toks21
 )
-(./LezioneFisicaIIIC_Feren_25_03_2020.aux)
+(./LezioneFisicaIIIC_Feren_25_03_2020.aux
+
+LaTeX Warning: Label `eq:campoGT' multiply defined.
+
+)
 \openout1 = `LezioneFisicaIIIC_Feren_25_03_2020.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -201,8 +205,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen139
@@ -301,68 +304,61 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (4.1771pt too wide) in paragraph at lines 45--46
-[]\OT1/cmr/m/n/17.28 In questo es-em-pio la trasfor-mazione galileiana con-sist
-e nella seguente
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <17.28> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
-<SistRifDiscordi.png, id=10, 308.15125pt x 163.61125pt>
-File: SistRifDiscordi.png Graphic file (type png)
-<use SistRifDiscordi.png>
-Package pdftex.def Info: SistRifDiscordi.png  used on input line 69.
-(pdftex.def)             Requested size: 180.67499pt x 95.93063pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
-Overfull \hbox (35.77478pt too wide) in paragraph at lines 67--72
-[][] 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (8.23108pt too wide) in paragraph at lines 52--53
+[]\OT1/cmr/m/n/17.28 ove la \OT1/cmr/bx/n/17.28 Costante Dielet-trica del Vuoto
+ \OT1/cmr/m/n/17.28 vale $\OML/cmm/m/it/17.28 ^^O[] \OT1/cmr/m/n/17.28 = 8\OML/
+cmm/m/it/17.28 :\OT1/cmr/m/n/17.28 85 \OMS/cmsy/m/n/17.28 ^^A \OT1/cmr/m/n/17.2
+8 10[][]$.
  []
 
-[2 <./SistRifDiscordi.png>] [3] [4]
-Overfull \hbox (13.02788pt too wide) in paragraph at lines 108--109
-\OT1/cmr/m/n/17.28 sol-i-dale con la terra stessa. Uno degli ef-fetti pi^^Su ev
--i-denti dell'accelerazione
- []
+[1
 
-[5] (./LezioneFisicaIIIC_Feren_25_03_2020.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+(./LezioneFisicaIIIC_Feren_25_03_2020.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
  3362 strings out of 492982
- 50238 string characters out of 6134896
- 119717 words of memory out of 5000000
- 6872 multiletter control sequences out of 15000+600000
- 11499 words of font info for 44 fonts, out of 8000000 for 9000
+ 50188 string characters out of 6134896
+ 119805 words of memory out of 5000000
+ 6874 multiletter control sequences out of 15000+600000
+ 11846 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,28p,1594b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LezioneFisicaIIIC_Feren_25_03_2020.pdf (5 pages, 112177 bytes
+ 41i,16n,28p,711b,188s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfon
+t/line10.pfb>
+Output written on LezioneFisicaIIIC_Feren_25_03_2020.pdf (4 pages, 116790 bytes
 ).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,236 @@
+%\documentclass[12pt]{report}
+%\documentclass[12pt]{extreport}
+\documentclass[17pt]{extarticle}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+\usepackage{IEEEtrantools}
+\usepackage{cancel}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,264mm},
+ left=20mm,
+ top=10mm,
+ }
+
+\begin{document}
+
+\subsection{Legge di Coulomb}
+
+
+\begin{itemize}
+	\item Legge di Coulomb         
+		\begin{itemize}
+			\item Forma scalare $F = \frac{1}{4\pi\epsilon_0}\cdot\frac{q_1q_2}{r^2}$
+			\item Forma vettoriale $\vec{F} = \frac{1}{4\pi\epsilon_0}\cdot\frac{q_1q_2}{r^2}\hat{r}$
+		\end{itemize}			
+	  
+	\item Costante dielettrica del vuoto        $\epsilon_0 = 8.85\cdot 10^{-12}F/m$   (F = Farad)
+	\item Legge di Coulomb in un mezzo dielettrico       $F = \frac{1}{4\pi\epsilon_0\epsilon_r}\cdot\frac{q_1q_2}{r^2}$ \\ $\epsilon_r$ costante dielettrica relativa (es. $\epsilon_{H_2O} = 81$)
+\end{itemize}
+
+\subsection{Campo elettrico}
+
+      
+\begin{itemize}
+	\item Forma scalare $E = \frac{1}{4\pi\epsilon_0}\cdot\frac{Q}{r^2}$ quindi $F = qE$
+	\item Forma vettoriale $\vec{E} = \frac{1}{4\pi\epsilon_0}\cdot\frac{Q}{r^2}\hat{r}$ quindi $\vec{F} = q\vec{E}$
+\end{itemize}			
+
+
+
+\subsection{Flusso di un campo}
+Il flusso $\phi$ \'e il prodotto scalare tra vettore campo $\vec{E}$ e vettore superficie $\vec{S}=S\hat{n}$. Il vettore superficie \'e definito come quel vettore la cui lunghezza \'e pari all'area $S$ della superficie e la cui direzione $\hat{n}$ \'e perpendicolare alla superficie stessa. Il flusso si applica sia al campo elettrico $\vec{E}$ che al campo magnetico $\vec{B}$
+
+\begin{itemize}
+	\item $\phi(\vec{E}) = \vec{E}\cdot\vec{S}$.
+	\item $\phi(\vec{B}) = \vec{B}\cdot\vec{S}$.
+\end{itemize}	
+
+\subsection{Flusso del campo elettrico (Prima Legge di Maxwell)}
+Noto come \emph{Teorema di Gauss}.\\
+Il flusso del campo elettrico attraverso una superficie chiusa \'e pari alla somma delle cariche interne alla superficie diviso per la costante dielettrica $\epsilon_0$\footnote{Ovviamente, se il sistema \'e immerso in un mezzo dielettrico, allora $\epsilon_0$ va sostituito con il prodotto $\epsilon_0\epsilon_r$}
+
+
+\begin{itemize}
+	\item $\phi(\vec{E}) = \frac{Q_in}{\epsilon_0}$
+\end{itemize}
+
+Questa definizione di flusso \'e valido per campi elettrici costanti e superfici piane. Quando una di queste condizioni cade, allora \'e necessario definire il fluosso per mezzo dell'integrale
+
+$$
+\phi(\vec{E}) = \int_{\tau}\cdot\vec{E}dS
+$$
+
+\subsection{Distribuzione di carica }
+
+\begin{itemize}
+	\item $\lambda = \frac{\Delta Q}{\Delta l}$ distribuzione di carica lineare
+	\item $\sigma = \frac{\Delta Q}{\Delta S}$ distribuzione di carica di superficie
+	\item $\tau = \frac{\Delta Q}{\Delta V}$ distribuzione di carica di volume
+\end{itemize}
+
+\subsection{Campo elettrico indotto da una distribuzione piana di superficie}
+
+Dal Teorema di Gauss applicato ad una superficie cilindrica con asse di simmetria perpendicolare alla superficie stessa il campo elettrico \'e
+\begin{itemize}
+	\item $E = \frac{\sigma}{2\epsilon_0}$
+\end{itemize}
+
+La direzione di $\vec{E}$ \'e \emph{perpendicolare} alla superficie stessa e il verso \'e \emph{uscente} per distribuzione di carica positiva e \emph{entrante} per distribuzione di carica negativa
+
+
+\subsection{Energia potenziale e potenziale elettrostatico}
+
+
+
+\begin{itemize}
+	\item Energia potenziale elettrostatica $U = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}$ (si misura in Joule)
+	\item Potenziale elettrostatico $V = \frac{1}{4\pi\epsilon_0}\frac{q}{r}$ (si misura in Volt)
+	\item Differenza di potenziale dovuto a una carica puntiforme $\Delta V = V_A - V_B = \frac{q}{4\pi\epsilon_0}\cdot\left( \frac{1}{r_A} - \frac{1}{r_B} \right)$ 
+\end{itemize}
+
+
+\subsection{Condensatore}
+
+Due lastre metalliche (armature) disposte molto vicine tra di loro. Funge da accumulatore di cariche: se si accumulano cariche positive in una delle due, sull'altra si accumulano cariche negative. In un condensatore a faccie piane e parallele si ha 
+
+\begin{itemize}
+	\item $E = \frac{\sigma}{\epsilon_0}$ tra le due lastre
+	\item $E = 0$ fuori dalle lastre
+\end{itemize}
+
+
+La grandezza che caratterizza un condensatore \'e la sua \emph{capacit\'a}
+
+\begin{itemize}
+	\item $C = \frac{Q}{\Delta V}\qquad$ Si esprime in \emph{Farad} (F)
+\end{itemize}
+
+
+Due condensatori possono esser collegati in \emph{serie} o in \emph{parallelo}
+
+\begin{itemize}
+	\item Serie $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$
+	\item Parallelo $C_{eq} = C_1 + C_2$
+\end{itemize}
+
+{\bf Densit\'a di energia} di volume accumulata da un condensatore (si considera un esperimento ideale in cui le cariche elettriche si fanno viaggiare da "infinitamente lontano" fino alle armature del condensatore stesso e, per ciascuna di esse, si calcola il lavoro necessario).
+
+\begin{itemize}
+	\item $u = \frac{1}{2} \epsilon_0E^2$
+\end{itemize}
+
+Questa espressione viene utilizzata, pi\'u in generale, come densit\'a di energia del campo elettrico ed ha applicazioni interessanti nelle onde elettromagnetiche.
+
+\subsection{Resistenze elettriche}
+
+\begin{itemize}
+	\item Prima Legge di Ohm $V = Ri$
+		\begin{itemize}
+			\item V = Tensione, si esprime in Volt (V)
+			\item R = Resistenza elettrica, si esprime in Ohm ($\Omega$)
+			\item i = Intensit\'a di corrente elettrica, si esprime in Ampere (A)
+		\end{itemize}
+	\item Seconda Legge di Ohm $R=\rho\frac{l}{A}$
+		\begin{itemize}
+			\item R = Resistenza elettrica
+			\item $\rho$ = Resistivit\'a, diversa per ogni materiale
+			\item l = lunghezza
+			\item A = Sezione
+		\end{itemize}
+	\item Serie $R_{eq} = R_1 + R_2$
+	\item Parallelo $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$
+	\item Prima Legge di Kirchhoff: in un \emph{nodo} la somma delle correnti entranti \'e uguale alla somma delle correnti uscenti
+	\item Seconda Legge di Kirchhoff: in una \emph{maglia} la somma delle cadute di potenziale \'e nulla
+\end{itemize}
+
+
+\subsection{Circuitazione}
+
+Come il flusso, cos\'i anche la circuitazione si applica sia al campo elettrico $\vec{E}$ che al campo magnetico $\vec{B}$. \\
+Si considera un circuito chiuso $C$, lo si divide in tanti intervalli "infinitesimi" $\Delta s_i$, in modo tale che ciascuno di essi possa esser considerato lineare. Per il generico intervallo i-esimo si calcola il numero 
+$$
+ C(\vec{E}_i) = \vec{E}_i\cdot\Delta \vec{s}_i
+$$
+
+La circuitazione \'e la somma di questi $C_i$ e si esprime
+\begin{itemize}
+	\item $ C(\vec{E}) = \sum_i  \vec{E}_i\cdot\Delta \vec{s}_i$
+\end{itemize}
+
+Nel limite che questi elementi $\Delta s_i$ diventino infinitamente piccoli, la suddetta sommatoria diventa un integrale e viene scritta cos\'i
+$$
+C(\vec{E}) = \oint_{C} \vec{E}\cdot\vec{s}
+$$
+
+\subsection{Forza magnetica}
+
+\begin{itemize}
+	\item $F = \frac{\mu_0}{2\pi} \frac{i_1i_2l}{d}$
+	\begin{itemize}
+		\item F = forza
+		\item $\mu_0 = 4\pi\cdot 10^{-7}H/m$ costande diamagnetica del vuoto
+		\item $i_1$ corrente del primo filo
+		\item $i_2$ corrente del secondo filo
+		\item l = lunghezza dei due fili
+		\item d = distanza tra i due fili
+	\end{itemize}
+	\item $C = \frac{Q}{\Delta V}\qquad$ Si esprime in \emph{Farad} (F)
+\end{itemize}
+
+\subsection{Campo magnetico}
+
+
+\begin{itemize}
+	\item $B = \frac{\mu_0}{2\pi} \frac{i_0}{d}$ campo magnetico generato da un filo percorso da corrente $i_0$
+	\item $F = iBl$ Forza su un filo percorso da corrente $i$, dovuto alla presenza di un campo magnetico $B$ \emph{perpendicolare}
+\end{itemize}
+
+Il campo magnetico \'e un \emph{campo vettoriale}
+
+\begin{itemize}
+	\item $\vec{F} = q\vec{v}\times\vec{B}$
+\end{itemize}
+
+\subsection{Forza magnetica e campo magnetico in un mezzo materiale}
+
+Le equazioni sono le stesse, soltanto che $\mu_0$ viene sostituita con $\mu_0\mu_r$, ove $\mu_r$ \'e la \emph{costante diamagnetica relativa}
+
+\begin{itemize}
+	\item $F = \frac{\mu_0\mu_r}{2\pi} \frac{i_1i_2l}{d}$
+	\item $B = \frac{\mu_0\mu_r}{2\pi} \frac{i_0}{d}$
+\end{itemize}
+
+I materiali si distinguono in
+\begin{itemize}
+	\item diamagnetici $\mu_r < 0$
+	\item paramagnetici $\mu_r > 0$
+	\item ferromagnetici (calamite) 
+\end{itemize}
+
+
+\subsection{Campo magnetico generato da un solenoide di n spire}
+\begin{itemize}
+	\item $B = \mu_0 ni$
+\end{itemize}
+
+\subsection{Flusso del campo magnetico (Seconda Legge di Maxwell)}
+
+Data una superficie chiusa, il flusso del campo magnetico \'e \emph{sempre} nullo
+\begin{itemize}
+	\item $\phi(\vec{B}) = 0$
+\end{itemize}
+
+
+\subsection{Circuitazione del campo magnetico (Terza Legge di Maxwell)}
+
+\begin{itemize}
+	\item $C(\vec{B}) = \mu_0 i$ dato un circuito $\gamma$, la circuitazione del campo magnetico \'e proporzionale alla somma delle correnti \emph{concatenate}\footnote{L'equazione in questione solo parziamente costituisce la \emph{Terza Equazione di Maxwell}}
+\end{itemize}
+
+
+\end{document}

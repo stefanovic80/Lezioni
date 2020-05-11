@@ -1,0 +1,95 @@
+%\documentclass[12pt]{report}
+%\documentclass[12pt]{extreport}
+\documentclass[17pt]{extarticle}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+\usepackage{IEEEtrantools}
+\usepackage{cancel}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,264mm},
+ left=20mm,
+ top=10mm,
+ }
+
+\begin{document}
+
+\subsection{Introduzione ai gas e alla Termodinamica}
+
+La termodinamica studia fenomeni inerenti una grande quantit\'a di particelle come, ad esempio, un gas contenente una mole di molecole ($6\cdot 10^{23}$ molecole). Un tale sistema pu\'o, in linea di principio, essere studiato con le leggi della meccanica classica\footnote{In realt\'a anche questa affermazione non \'e del tutto corretta. In meccanica classica si usano le costanti iniziali del moto. Ad esempio, nel moto uniformemente accelerato si ha posizione iniziale e velocit\'a iniziale. Quando il numero di particelle \'e molto grande, si pu\'o dimostrare che una piccolissima incertezza nella conoscenza delle costanti iniziale pu\'o generare una incertezza crescente nel tempo dello stato di moto di ciascuna particella.}, in realt\'a un lavoro del genere \'e, a conti fatti, impossibile da svolgere.
+
+Si usano quindi grandezze \emph{macroscopiche}, o \emph{termodinamiche}, ossia grandezze misurabili e che coinvolgono la dinamica di un grande numero di particelle. Le quattro grandezze macroscopiche principali sono
+\begin{enumerate}
+	\item pressione $p = \frac{forza}{superficie}$. Si misura in Pascal (Pa) nel sistema SI. Altre unit\'a di misura della pressione sono atmosfere (atm) o megabarie (bar)
+	\item volume $V$. Si pu\'o esprimere in metri cubi ($m^3$), centimetri cubi ($cm^3$) o litri ($l$)
+	\item numero di moli $n$. Esprime il numero di particelle contenute in un gas. Una mole coincide con un numero di molecole pari a $N_A = 6.022\cdot 10^{23}$ molecole. Il numero $N_A$ \'e noto come \emph{Numero d'Avogadro}.
+	\item Temperatura. Si pu\'o esprimere in Gradi Celsius, in tal caso si usa la lettera $t$ minuscola, oppure in Gradi Kelvin e si usa la $T$ maiuscola.
+\end{enumerate}
+
+Normalmente quando per una stessa grandezza si parla di due unit\'a di misura differenti, allora si ha un coefficiente moltiplicativo per convertire da una unit\'a di misura all'altra. Ad esempio, per quel che concerne la pressione, si ha che $1Pa = 9,82\cdot 10^{-6} atm$. Oppure, per quel che concerne il volume, si ha $1m^3 = 10^{3} l$.
+
+Per quel che concerne, invece, il passaggio da Gradi Celsius $t$ e Gradi Kelvin $T$, si ha che il coeffiente \'e a sommare
+$$
+T = t + 273.15
+$$ 
+Ci\'o \'e dovuto al fatto che la scala Kelvin \'e stata introdotta per assegnare il valore $0$ alla temperatura minima raggiungibile (asintoticamente!) nell'universo\footnote{Il fatto che lo zero assoluto possa esser raggiunto soltanto asintoticamente \'e noto come \emph{Terzo Principio della Termodinamica}}.
+
+\subsection{Leggi di Gay-Lussac}
+
+
+Usando la Scala Celsius, le due leggi di Gay-Lussac sono
+\begin{eqnarray}
+	P = P_0\left( 1 + \alpha t \right)\\
+	V = V_0\left( 1 + \alpha t \right)
+\end{eqnarray}
+
+Ove $V_0$ e $P_0$ sono, rispettivamente, il volume e la pressione a 0 Gradi Celsius.
+
+Le stesse leggi possono essere scritte facendo uso della scala Kelvin, anzich\'e la scala Celsius e diventano
+
+\begin{eqnarray}
+	\frac{P}{T} = \frac{P_0}{T_0}\\ \label{eq:Gay_LussacV}
+	\frac{V}{T} = \frac{V_0}{T_0}
+\end{eqnarray}
+
+Ove, in queste ultime due equazioni, $V_0$ e $P_0$ \emph{non} sono necessariamente volume e pressione a 0 Gradi Celsius, ma i valori corrispondenti ad una fase iniziale di una \emph{trasformazione termodinamica}. 
+
+Sia nella Scala Celsius che nella Scala Kelvin, entrambe le due leggi sono rappresentate su grafico cartesiano da una retta. Soltanto che mentre nella Scala Celsius questa retta \emph{non} passa per l'origine del sistema di riferimento cartesiano mentre nella Scala Kelvin si ha l'equazionde di una retta che \emph{passa} per l'origine del suddetto sistema.
+
+\subsection{Esempio di trasformazione termodinamica}
+
+Un gas si trova all'istante iniziale ad una temperatura $T_0 = 300K$ e chiuso in un volume $V_0 = 20l$. Supponengo che il gas \'e mantenuto a pressione costante (ad esempio accendendo un fornello sotto il contenitore dello stesso) e che, nella fase finale, il volume $V = 80l$, determinare la temperatura necessaria affinch\'e ci\'o accada.
+
+Invertendo l'equazione \ref{eq:Gay_LussacV}, si ha 
+\begin{eqnarray}
+	T = \frac{T_0V}{V_0} = \frac{300K\cdot 80\cancel{l} }{20 \cancel{l} } = 1200 K
+\end{eqnarray}
+
+Quindi, per far quadruplicare il volume del suddetto gas, mantenendo la pressione costante, \'e necessario passare da una temperatura ordinaria a circa 900 Gradi Celsius.
+
+\subsection{Legge di Boyle}
+
+La Legge di Boyle esprime la relazione tra la variazione del volume e la variazione della pressione di un gas ed \'e data dalla seguente formula:
+
+\begin{eqnarray}
+	PV = P_0V_0
+\end{eqnarray}
+
+Mentre le leggi di Gay-Lussac sono rappresentate, rispettivamente sul piano $P-T$ e $V-T$ da una retta, la legge di Boyle \'e rappresentata sul piano $P-V$ da una iperbole e si applica quando si tiene la pressione costante e, invece, si lasciano variare pressione e volume.
+
+\subsection{Diversi stati di aggregazione della materia}
+\'E da tenere in mente che sia le Leggi di Gay-Lussac che la Legge di Boyle si applicano soltanto su \emph{Gas Perfetti}: ossia gas \emph{sufficientemente rarefatti} tali per cui le interazioni tra differenti molecole del gas stesso risultino trascurabili.
+
+A tal proposito, \'e noto che la materia si pu\'o presentare in natura in diversi stati di aggregazione che vanno dal pi\'u rarefatto (il plasma), fino al pi\'u condensato (il solido):
+
+\begin{enumerate}
+	\item \emph{Plasma}: lo stato di aggregazione della materia \'e cos\'i "basso" tale per cui anche le singole molecole sono scisse nei suoi costituenti. In tal caso, sono "forti" interazioni di natura elettromagnetica tra i differenti costituenti il sistema stesso ed esso non \'e certamente assimilabile ad un gas perfetto. Esempi di plasma sono il fuoco, l'atmosfera intorno ad un fulmine o l'aurora boreale.
+	\item \emph{Gas}: lo stato di aggregazione della materia \'e sufficientemente basso da permettere il moto libero di ciascuno dei costituenti, i quali sono elettricamente neutri. Come gi\'a menzionato, si pu\'o comunque avere a che fare con delle interazioni a distanza (sempre di natura elettromagnetica) tra le differenti molecole. Se ci\'o accade (tipicamente sotto una certa temperatura o sopra una certa pressione), allora il gas \emph{non} \'e perfetto.
+	\item \emph{Liquido}: lo stato di aggregazione della materia \'e tale per cui sono presenti delle interazioni tra molecole in modo tale che esse siano in grado di traslare l'una rispetto all'altra.
+	\item \emph{Solido}: stato di aggregazione della materia tale per cui ogni molecola \'e "confinata" entro una certa regione di spazio.
+\end{enumerate}
+\end{document}

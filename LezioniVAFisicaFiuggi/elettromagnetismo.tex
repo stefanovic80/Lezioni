@@ -23,7 +23,7 @@
 \begin{document}
 
 \begin{center}
-	{\bf Formulario di elettromagnetismo (aggiornato al 14/05/2020})
+	{\bf Formulario di elettromagnetismo (aggiornato al 20/05/2020})
 \end{center}
 
 
@@ -43,7 +43,7 @@
 
 
 \begin{figure}[th]
-\includegraphics[width=6cm]{forzaElettrica.jpg}
+\includegraphics[width=6cm]{forzaElettrica.jpg}%GaussLastraPiana.png
 \centering
 \end{figure}
 
@@ -62,68 +62,31 @@
 
 
 \begin{figure}[th]
-\includegraphics[width=8cm]{lineeCampoElettrico.jpg}
+\includegraphics[width=8cm]{lineeCampoElettrico.jpg}%CondensatoreFaccePianeParallele.png
 \centering
 \end{figure}
 
 
+\section{Energia potenziale e potenziale elettrostatico}
 
 
 
-\subsection{Forza elettrica e campo elettrico in un mezzo differente dal vuoto}
+\begin{itemize}
+	\item Energia potenziale elettrostatica $U = \frac{1}{4\pi\epsilon_0}\frac{qQ}{r}$ (si misura in Joule)\\
+	Lavoro necessario per portare una carica elettrica $q$ da una posizione \emph{infinitamente} lontana rispetto ad una carica elettrica $Q$ ad una distanza $r$ dalla carica $Q$ stessa.
+	\item Potenziale elettrostatico $V = \frac{U}{q}=\frac{1}{4\pi\epsilon_0}\frac{Q}{r}$ (si misura in Volt)
+	\item Differenza di potenziale tra un punto distante $r_A$ ed un punto distante $r_B$ rispetto a una carica puntiforme $\Delta V = V_A - V_B = \frac{Q}{4\pi\epsilon_0}\cdot\left( \frac{1}{r_A} - \frac{1}{r_B} \right)$ 
+\end{itemize}
+
+
+\subsection{Forza elettrica, campo elettrico e potenziale elettrostatico in un mezzo differente dal vuoto}
 \emph{Le equazioni sono identiche} a quelle precedenti, soltanto che alla costante dielettrica del vuoto $\epsilon_0$ si sostituisce il prodotto $\epsilon_0\epsilon_r$, ove $\epsilon_r$ \'e la \emph{costante dielettrica relativa}, specifica del mezzo materiale ove l'interazione a distanza agisce.
 
 \begin{itemize}
 	\item Legge di Coulomb in un mezzo dielettrico       $F = \frac{1}{4\pi\epsilon_0\epsilon_r}\cdot\frac{qQ}{r^2}$ \\ $\epsilon_r$ costante dielettrica relativa (es. $\epsilon_{H_2O} = 81$)
 	\item Forma scalare $E = \frac{1}{4\pi\epsilon_0\epsilon_r}\cdot\frac{Q}{r^2}$ quindi $F = qE$
 	\item Forma vettoriale $\vec{E} = \frac{1}{4\pi\epsilon_0\epsilon_r}\cdot\frac{Q}{r^2}\hat{r}$ quindi $\vec{F} = q\vec{E}$
-\end{itemize}
-
-\section{Forza magnetica}
-
-\begin{itemize}
-	\item Forza magnetica tra due fili percorsi da corrente elettrica $i$ e $I$ rispettivamente: $F = \frac{\mu_0}{2\pi} \frac{iI}{d}$
-	\begin{itemize}
-		\item $\mu_0 = 4\pi\cdot 10^{-7}H/m$ costande diamagnetica del vuoto
-		\item l = lunghezza dei due fili
-		\item d = distanza tra i due fili
-	\end{itemize}
-\end{itemize}
-
-
-\begin{figure}[th]
-\includegraphics[width=8cm]{forzaMagnetica.jpg}
-\centering
-\end{figure}
-
-
-\subsection{Campo magnetico}
-Il campo magnetico \'e un \emph{campo vettoriale} $\vec{B}$
-
-\begin{itemize}
-	\item $B = \frac{\mu_0}{2\pi} \frac{I}{d}$ campo magnetico generato da un filo percorso da corrente $I$.
-	\item $F = iBl$ Forza su un filo percorso da corrente $i$, dovuto alla presenza di un campo magnetico $B$ \emph{perpendicolare}.
-	\item $\vec{F} = i\vec{B}\times\vec{l}$ Forma vettoriale della forza che un campo magnetico esercita su un filo di lunghezza $l$ percorso da corrente elettrica $i$.
-	\item $\vec{F} = q\vec{v}\times\vec{B}$ Forma vettoriale della forza che un campo magnetico esercita su una carica in moto.
-\end{itemize}
-
-%\subsection{Forza magnetica e campo magnetico in un mezzo materiale}
-\subsection{Forza magnetica e campo magnetico in un mezzo differente dal vuoto}
-
-\emph{Le equazioni sono identiche} a quelle precedenti, soltanto che alla costante diamagnetica del vuoto$\mu_0$ si sostituisce il prodotto $\mu_0\mu_r$, ove $\mu_r$ \'e la \emph{costante diamagnetica relativa}, specifica del mezzo materiale ove l'interazione a distanza agisce.
-
-%Le equazioni sono le stesse, soltanto che $\mu_0$ viene sostituita con $\mu_0\mu_r$, ove $\mu_r$ \'e la \emph{costante diamagnetica relativa}
-
-\begin{itemize}
-	\item Forza magnetica in un mezzo $F = \frac{\mu_0\mu_r}{2\pi} \frac{iI}{d}$.\\ $\mu_r$ \emph{costante diamagnetica relativa}
-	\item $B = \frac{\mu_0\mu_r}{2\pi} \frac{I}{d}$
-\end{itemize}
-
-I materiali si distinguono in
-\begin{itemize}
-	\item diamagnetici $\mu_r < 0$
-	\item paramagnetici $\mu_r > 0$
-	\item ferromagnetici (calamite) 
+	\item Potenziale elettrostatico $V = \frac{U}{q}=\frac{1}{4\pi\epsilon_0\epsilon_r}\frac{Q}{r}$ (si misura in Volt)
 \end{itemize}
 
 
@@ -134,7 +97,7 @@ I materiali si distinguono in
 
 
 
-\section{Distribuzione di carica }
+\section{Distribuzione di carica elettrica }
 
 \begin{itemize}
 	\item $\lambda = \frac{\Delta Q}{\Delta l}$ distribuzione di carica lineare
@@ -150,29 +113,44 @@ Dal Teorema di Gauss applicato ad una superficie cilindrica con asse di simmetri
 	\item $E = \frac{\sigma}{2\epsilon_0\epsilon_r}$ se \'e presente un mezzo materiale differente dal vuoto.
 \end{itemize}
 
+
+\begin{figure}[th]
+\includegraphics[width=5cm]{GaussLastraPiana.png}%
+\centering
+\end{figure}
+
 La direzione di $\vec{E}$ \'e \emph{perpendicolare} alla superficie stessa e il verso \'e \emph{uscente} per distribuzione di carica positiva e \emph{entrante} per distribuzione di carica negativa
 
 
-\section{Energia potenziale e potenziale elettrostatico}
 
-
-
-\begin{itemize}
-	\item Energia potenziale elettrostatica $U = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}$ (si misura in Joule)
-	\item Potenziale elettrostatico $V = \frac{1}{4\pi\epsilon_0}\frac{q}{r}$ (si misura in Volt)
-	\item Differenza di potenziale dovuto a una carica puntiforme $\Delta V = V_A - V_B = \frac{q}{4\pi\epsilon_0}\cdot\left( \frac{1}{r_A} - \frac{1}{r_B} \right)$ 
-\end{itemize}
 
 
 \section{Condensatore}
 
-Due lastre metalliche (armature) disposte molto vicine tra di loro. Funge da accumulatore di cariche: se si accumulano cariche positive in una delle due, sull'altra si accumulano cariche negative. In un condensatore a faccie piane e parallele si ha 
+Due lastre metalliche (armature) disposte molto vicine tra di loro.
+
+
+\begin{figure}[th]
+\includegraphics[width=6cm]{CondensatoreFaccePianeParallele.png}%Condensatore.png
+\includegraphics[width=6cm]{Condensatore.png}%Condensatore.png
+\centering
+\end{figure}
+
+Funge da accumulatore di cariche: se si accumulano cariche positive in una delle due, sull'altra si accumulano cariche negative. Si tratta di due lastre con distribuzione carica $+\sigma$ e $-\sigma$ rispettivamente. 
 
 \begin{itemize}
-	\item $E = \frac{\sigma}{\epsilon_0}$ tra le due lastre. Se \'e presente un mezzo, allora $E = \frac{\sigma}{\epsilon_0\epsilon_r}$
-	\item $E = 0$ fuori dalle lastre
+	\item {\bf nel vuoto}
+	\begin{itemize}
+		\item $E = \frac{\sigma}{\epsilon_0}$ tra le due lastre, $E = 0$ esternamente.
+	 	\item $\Delta V = El = \frac{\sigma}{\epsilon_0}l$ differenza di potenziale tra le due armature distanti $l$.
+	 \end{itemize}	 
+	 \item {\bf In un mezzo dielettrico} 
+		\begin{itemize}
+		\item $E = \frac{\sigma}{\epsilon_0\epsilon_r}$ tra le due lastre, $E = 0$ esternamente.
+		\item $\Delta V = El = \frac{\sigma}{\epsilon_0\epsilon_r}l$ differenza di potenziale tra le due armature distanti $l$.
+	\end{itemize}
 \end{itemize}
-
+\vspace{1cm}
 
 La grandezza che caratterizza un condensatore \'e la sua \emph{capacit\'a}
 
@@ -196,7 +174,9 @@ Due condensatori possono esser collegati in \emph{serie} o in \emph{parallelo}
 
 Questa espressione viene utilizzata, pi\'u in generale, come densit\'a di energia del campo elettrico ed ha applicazioni interessanti nelle onde elettromagnetiche.
 
-\section{Resistenze elettriche}
+\section{Corrente elettrica}
+
+In {\bf corrente elettrica continua} si ha
 
 \begin{itemize}
 	\item Prima Legge di Ohm $V = Ri$
@@ -217,6 +197,153 @@ Questa espressione viene utilizzata, pi\'u in generale, come densit\'a di energi
 	\item Prima Legge di Kirchhoff: in un \emph{nodo} la somma delle correnti entranti \'e uguale alla somma delle correnti uscenti
 	\item Seconda Legge di Kirchhoff: in una \emph{maglia} la somma delle cadute di potenziale \'e nulla
 \end{itemize}
+
+La {\bf corrente elettrica alternata} \'e caratterizzata da una polarit\'a che si inverte nel tempo, solitamente con una legge di tipo sinusoidale. 
+\begin{itemize}
+	\item $V = A\sin{(\omega t + \phi)}$.\\
+	A = Ampiezza\\
+	$\omega = 2\pi f$ pulsazione, pari a $2\pi$ per \emph{frequenza}\\
+	$\phi$ \emph{differenza} di fase
+\end{itemize}
+
+La corrente elettrica domestica \'e alternata, \'e caratterizzata da una ampiezza di $220$ volt e una frequenza di $50$ $Hz$. La differenza di fase $\phi$ esprime l'anticipo che una corrente pu\'o avere rispetto ad un'altra.
+
+
+
+
+\section{Forza magnetica}
+
+La forza magnetica si sperimenta tra
+\begin{itemize}
+	\item Due fili percorsi da corrente
+	\item Un magnete e un filo percorso da corrente
+	\item Un magnete e un conduttore 
+	\item Due magneti
+\end{itemize}
+
+Mentre la \emph{sorgente} del campo elettrico \'e la carica elettrica, la \emph{sorgente} del campo magnetico \'e la corrente elettrica. Un magnete \'e in grado di generare una forza magnetica a causa della presenza di \emph{correnti microscopiche} disposte in maniera ordinate al loro interno, in modo tale che ciascuna di esse si sommi a dar vita ad un campo magnetico \emph{macroscopico}.
+
+\subsection{Due fili paralleli percorsi da corrente}
+
+\begin{itemize}
+	\item Forza magnetica tra due fili percorsi da corrente elettrica $i$ e $I$ rispettivamente: $F = \frac{\mu_0}{2\pi} \frac{iI}{d}$
+	\begin{itemize}
+		\item $\mu_0 = 4\pi\cdot 10^{-7}H/m$ costande diamagnetica del vuoto
+		\item l = lunghezza dei due fili
+		\item d = distanza tra i due fili
+	\end{itemize}
+\end{itemize}
+
+%spiraMagnetica.jpg
+
+\begin{figure}[th]
+\includegraphics[width=5cm]{forzaMagnetica.jpg}
+\centering
+\end{figure}
+
+
+
+\subsection{Spire e bobine}
+
+
+Una spira \'e un filo avvolto su se stesso ove passa corrente con una forma geometrica \emph{tipicamente} circolare. 
+
+
+
+
+\begin{figure}[th]
+\includegraphics[width=4cm]{spiraMagnetica.jpg}
+\centering
+\end{figure}
+
+Il campo magnetico generato \emph{al centro} della spira \'e $B = \frac{\mu_0 i}{2r}$
+
+Una bobina \'e una disposizione ad elica di un filo di corrente e pu\'o esser rappresentato come $N$ spire disposte una sopra l'altra.
+
+
+
+\begin{figure}[th]
+\includegraphics[width=4cm]{Bobina.png}
+\centering
+\end{figure}
+
+Il campo magnetico generato \emph{al centro} della bobina \'e $B = \frac{\mu_0 N i}{l}$. Ove N \'e il numero di spire e l \'e la lunghezza della spira.
+
+\subsection{Campo magnetico indotto da un filo percorso da corrente}
+Il campo magnetico \'e un \emph{campo vettoriale} $\vec{B}$
+
+\begin{itemize}
+	\item $B = \frac{\mu_0}{2\pi} \frac{I}{d}$ campo magnetico generato da un filo percorso da corrente $I$.
+	\item $F = iBl$ Forza su un filo percorso da corrente $i$, dovuto alla presenza di un campo magnetico $B$ \emph{perpendicolare}.
+	\item $\vec{F} = i\vec{B}\times\vec{l}$ Forma vettoriale della forza che un campo magnetico esercita su un filo di lunghezza $l$ percorso da corrente elettrica $i$.
+	\item $\vec{F} = q\vec{v}\times\vec{B}$ Forma vettoriale della forza che un campo magnetico esercita su una carica in moto.
+\end{itemize}
+
+%\subsection{Forza magnetica e campo magnetico in un mezzo materiale}
+
+
+
+
+\begin{figure}[th]
+\includegraphics[width=5cm]{PoliMagneici.png}
+\centering%motoreElettrico
+\end{figure}
+
+
+
+
+
+
+
+
+
+\section{Bobina elettrica immersa in un campo magnetico}
+
+ 
+
+
+
+
+
+{\bf Motore elettrico}:\\
+Se nella bobina passa una corrente elettrica allora, per effetto della legge $\vec{F}=i\vec{l}\times\vec{B}$ si genera una coppia che mette in rotazione la bobina stessa. Invertendo la polarit\'a della bobina ad ogni giro (spazzole) il dispositivo genera una rotazione della bobina quando ad esso viene applicato corrente elettrica\\
+{\bf Alternatore}:\\
+Se applico una \emph{coppia}, e quindi una rotazione della bobina immersa in un campo magnetico si genera un corrente elettrica per effetto della variazione del flusso del campo magnetico concatenato con la bobina stessa (Legge di Faraday-Newnmann).
+
+
+\begin{figure}[th]
+\includegraphics[width=5.6cm]{motoreElettrico.jpg}
+\includegraphics[width=5cm]{motoreElettrico1.jpg}
+\centering%motoreElettrico
+\end{figure}
+
+\begin{itemize}
+	\item $M = Fb = iAB\sin\alpha$\\
+	A = area della spira
+	$\alpha$ angolo che la spira forma con la perpendicolare alle linee di campo magnetico
+\end{itemize}
+
+
+\subsection{Forza magnetica e campo magnetico in un mezzo differente dal vuoto}
+
+\emph{Le equazioni sono identiche} a quelle precedenti, soltanto che alla costante diamagnetica del vuoto$\mu_0$ si sostituisce il prodotto $\mu_0\mu_r$, ove $\mu_r$ \'e la \emph{costante diamagnetica relativa}, specifica del mezzo materiale ove l'interazione a distanza agisce.
+
+%Le equazioni sono le stesse, soltanto che $\mu_0$ viene sostituita con $\mu_0\mu_r$, ove $\mu_r$ \'e la \emph{costante diamagnetica relativa}
+
+\begin{itemize}
+	\item Forza magnetica in un mezzo $F = \frac{\mu_0\mu_r}{2\pi} \frac{iI}{d}$.\\ $\mu_r$ \emph{costante diamagnetica relativa}
+	\item $B = \frac{\mu_0\mu_r}{2\pi} \frac{I}{d}$
+\end{itemize}
+
+I materiali si distinguono in
+\begin{itemize}
+	\item diamagnetici $\mu_r < 0$
+	\item paramagnetici $\mu_r > 0$
+	\item ferromagnetici (calamite) 
+\end{itemize}
+
+
+
 
 
 

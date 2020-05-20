@@ -1,0 +1,1434 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/stefano/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=it_IT.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=it_IT.UTF-8
+dbus-update-activation-environment: setting LC_MONETARY=it_IT.UTF-8
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/xfce.mandatory.path
+dbus-update-activation-environment: setting LC_NAME=it_IT.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/stefano
+dbus-update-activation-environment: setting USER=stefano
+dbus-update-activation-environment: setting DESKTOP_SESSION=xfce
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/xfce.default.path
+dbus-update-activation-environment: setting PWD=/home/stefano
+dbus-update-activation-environment: setting HOME=/home/stefano
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/home/stefano/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xfce
+dbus-update-activation-environment: setting LC_ADDRESS=it_IT.UTF-8
+dbus-update-activation-environment: setting LC_NUMERIC=it_IT.UTF-8
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=XFCE
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting LC_TELEPHONE=it_IT.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=xfce
+dbus-update-activation-environment: setting LOGNAME=stefano
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/stefano/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xfce:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_IDENTIFICATION=it_IT.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+xfce4-session-Message: 09:39:33.923: SSH authentication agent is already running
+gpg-agent[1527]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1510): xfce4-session-WARNING **: 09:39:33.930: gpg-agent returned no PID in the variables
+
+(xfce4-session:1510): xfce4-session-WARNING **: 09:39:33.932: xfsm_manager_load_session: Something wrong with /home/stefano/.cache/sessions/xfce4-session-stefano-P552LA:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1561): GLib-CRITICAL **: 09:39:34.308: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1561): polkit-gnome-1-WARNING **: 09:39:34.309: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(wrapper-2.0:1651): GLib-GIO-CRITICAL **: 09:39:35.568: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1651): GLib-GIO-CRITICAL **: 09:39:35.568: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1651): GLib-GObject-WARNING **: 09:39:35.568: invalid (NULL) pointer instance
+
+(wrapper-2.0:1651): GLib-GObject-CRITICAL **: 09:39:35.568: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1651): Gtk-WARNING **: 09:39:35.568: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(blueberry-tray.py:1544): Gtk-WARNING **: 09:39:35.569: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "RegisterClient" with signature "ss" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(wrapper-2.0:1651): Gtk-WARNING **: 09:39:35.736: Negative content width -15 (allocation 1, extents 8x8) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:1656): WARNING **: 09:39:35.738: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:1656): pulseaudio-plugin-WARNING **: 09:39:35.738: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:1652): WARNING **: 09:39:35.770: No outputs have backlight property
+
+(wrapper-2.0:1635): Gtk-WARNING **: 09:39:35.781: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1656): Gtk-WARNING **: 09:39:35.933: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+
+(nm-applet:1580): Gdk-CRITICAL **: 09:39:36.018: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1652): Gtk-WARNING **: 09:39:36.114: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 09:39:46.973: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+[2028:2028:0514/093950.090197:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[2083:1:0514/093951.165546:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+(xfce4-terminal:2239): Gdk-CRITICAL **: 09:40:12.331: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+[2349:1:0514/094030.822210:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2500:1:0514/094035.982029:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2499:1:0514/094040.133769:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2499:1:0514/094041.351467:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2499:1:0514/094041.352842:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2642:1:0514/094103.261767:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[4470:1:0514/095346.738904:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102919.950893:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102919.953698:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.027033:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.027878:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.030162:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.031129:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.032591:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.033794:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.035371:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.036441:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.037843:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5381:1:0514/102920.039491:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[5677:1:0514/104740.437583:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+(/usr/lib/firefox/firefox:6384): dconf-WARNING **: 13:07:10.914: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[10496:1:0514/150151.449326:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10496:1:0514/150212.040873:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10496:1:0514/150212.045281:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10496:1:0514/150212.053630:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10496:1:0514/150212.061431:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10496:1:0514/150219.672410:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"MediaSource endOfStream before demuxer initialization completes (before HAVE_METADATA) is treated as an error. This may also occur as consequence of other MediaSource errors before HAVE_METADATA."}
+[10849:1:0514/150349.537840:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10849:1:0514/150349.539556:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10849:1:0514/150350.952269:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10849:1:0514/150350.954244:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10920:1:0514/150400.126169:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10920:1:0514/150400.129410:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10920:1:0514/150402.183985:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10920:1:0514/150402.185586:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[12515:1:0514/155850.618115:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12515:1:0514/155850.620574:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12515:1:0514/155850.758325:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+qt5ct: using qt5ct plugin
+[13217:1:0514/162507.723021:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[13259:1:0514/162521.086345:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[13259:1:0514/162521.087480:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+002b:fixme:ver:GetCurrentPackageId (0x23d910 (nil)): stub
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+
+(/usr/lib/firefox/firefox:3552): dconf-WARNING **: 17:26:40.600: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+[14980:1:0514/174119.233919:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[14980:1:0514/174119.235051:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[14980:1:0514/174120.622371:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[14980:1:0514/174120.623685:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[16431:1:0514/182604.313247:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16431:1:0514/182604.314773:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16431:1:0514/182605.650520:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16431:1:0514/182605.652141:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16469:1:0514/182613.524443:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16469:1:0514/182613.528236:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16469:1:0514/182615.423190:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16469:1:0514/182615.425245:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+(/usr/lib/firefox/firefox:3620): dconf-WARNING **: 18:27:07.296: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[18666:1:0514/195341.192245:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18666:1:0514/195341.193393:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18666:1:0514/195342.500839:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18666:1:0514/195342.502150:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 19:56:12.285: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 21:12:47.533: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+qt5ct: using qt5ct plugin
+qt5ct: using qt5ct plugin
+qt5ct: using qt5ct plugin
+qt5ct: using qt5ct plugin
+[21178:1:0514/212820.126191:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21178:1:0514/212820.126972:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21178:1:0514/212820.133787:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21178:1:0514/212820.134742:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 21:29:33.858: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0009:fixme:exec:SHELL_execute flags ignored: 0x00004100
+002a:fixme:ver:GetCurrentPackageId (0x237710 (nil)): stub
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 21:30:27.460: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0009:fixme:exec:SHELL_execute flags ignored: 0x00004100
+002a:fixme:ver:GetCurrentPackageId (0x237710 (nil)): stub
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 21:30:41.366: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0009:fixme:exec:SHELL_execute flags ignored: 0x00004100
+002a:fixme:ver:GetCurrentPackageId (0x237710 (nil)): stub
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 21:31:57.420: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0009:fixme:exec:SHELL_execute flags ignored: 0x00004100
+002c:fixme:ver:GetCurrentPackageId (0x237710 (nil)): stub
+
+(wrapper-2.0:1635): Gdk-CRITICAL **: 21:32:43.030: Window 0x557f3205f010 has not been made visible in GdkSeatGrabPrepareFunc
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0009:fixme:exec:SHELL_execute flags ignored: 0x00004100
+002a:fixme:ver:GetCurrentPackageId (0x237710 (nil)): stub
+002a:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+002a:fixme:ver:GetCurrentPackageId (0x23d910 (nil)): stub
+002a:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[2028:2028:0515/085807.159773:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.159967:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.160383:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.160852:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.161306:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.161749:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.162175:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.162587:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.162991:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.163399:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.163806:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.164218:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.164651:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.165076:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.165580:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.166055:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.166584:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.167080:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.167633:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.168167:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.168644:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.169114:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.169606:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.170067:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.170534:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.171005:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.171481:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.171952:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.172405:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.172897:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.176695:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.177227:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.177656:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.178125:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.178687:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.179327:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.180011:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.180519:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.180815:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.181264:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[2028:2028:0515/085807.181514:ERROR:shared_image_manager.cc(191)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[5434:1:0515/085845.733349:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+002a:fixme:ver:GetCurrentPackageId (0x23d910 (nil)): stub
+002a:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+
+(xviewer:21074): Gtk-CRITICAL **: 11:18:18.658: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(xviewer:21074): Gtk-CRITICAL **: 11:18:59.007: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(xviewer:21074): Gtk-CRITICAL **: 11:19:25.946: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(xviewer:21074): Gtk-CRITICAL **: 11:19:33.411: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(xviewer:21074): Gtk-CRITICAL **: 11:20:53.517: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+002b:fixme:ver:GetCurrentPackageId (0x23d910 (nil)): stub
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+002b:fixme:ver:GetCurrentPackageId (0x23d910 (nil)): stub
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[10829:1:0515/120740.985656:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[10829:1:0515/120740.986500:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[14998:1:0515/120753.113224:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[14998:1:0515/120753.114192:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[14998:1:0515/120753.116486:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[14998:1:0515/120753.118162:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11362:1:0515/130715.593895:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11362:1:0515/130715.594628:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11491:1:0515/130730.964337:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11491:1:0515/130730.966297:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11491:1:0515/130732.353820:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11491:1:0515/130732.355014:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11590:1:0515/131016.908495:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11589:1:0515/131021.319213:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11589:1:0515/131022.545942:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11589:1:0515/131022.548005:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11728:1:0515/131221.578584:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11728:1:0515/131222.664497:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[11728:1:0515/131222.665303:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.371589:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.372396:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.374986:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.375915:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.381188:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.382598:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.388689:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12064:1:0515/133407.389558:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[12077:1:0515/133450.068460:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[16433:1:0515/171837.461554:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171848.795919:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171848.796638:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171848.798013:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171848.799001:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171848.801174:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171848.804011:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171849.180101:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171849.180816:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171849.182183:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/171849.183228:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172022.967212:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172022.968125:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172022.969727:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172022.970633:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172023.437839:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172023.438699:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172023.700796:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172023.701869:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172023.704780:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16494:1:0515/172023.705676:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16552:1:0515/172100.251639:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[16612:1:0515/172130.514428:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Gtk-Message: 17:30:38.436: GtkDialog mapped without a transient parent. This is discouraged.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[1996:2014:0516/005324.160553:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+--2020-05-16 09:59:04--  https://clients2.google.com/cr/report
+Resolving clients2.google.com (clients2.google.com)... 216.58.206.46, 2a00:1450:4002:801::200e
+Connecting to clients2.google.com (clients2.google.com)|216.58.206.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘/dev/fd/4’
+
+Crash dump id: c266ae4c7dfa755a
+
+     0K                                                        1,07M=0s
+
+2020-05-16 09:59:05 (1,07 MB/s) - ‘/dev/fd/4’ saved [16]
+
+[3127:3127:0516/095905.911909:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+
+(/usr/lib/firefox/firefox:14681): dconf-WARNING **: 10:54:10.980: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+
+(firefox:3370): Gtk-CRITICAL **: 10:58:13.684: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:3370): Gtk-CRITICAL **: 10:58:13.696: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.516: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.516: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.516: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.519: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.519: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.519: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.520: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.520: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.520: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.522: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.522: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.522: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.523: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.523: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.523: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.525: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.525: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.525: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.526: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.526: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.526: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.528: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.528: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.528: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.529: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.530: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.530: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.531: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.531: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.531: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.532: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.532: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.532: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.534: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.534: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.534: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.535: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.535: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:1537): thunarx-CRITICAL **: 11:24:03.535: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(xviewer:21074): Gtk-CRITICAL **: 11:27:02.150: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+0009:fixme:exec:SHELL_execute flags ignored: 0x00000100
+002b:fixme:ver:GetCurrentPackageId (0x23d910 (nil)): stub
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+002b:fixme:file:FindFirstFileExW flags not implemented 0x00000003
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[7452:1:0516/115835.141273:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7531:1:0516/115916.873485:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7531:1:0516/115916.877415:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7531:1:0516/115916.881919:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7531:1:0516/115916.883904:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7558:1:0516/115940.900017:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7558:1:0516/115940.900733:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9587:1:0516/132451.986562:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9587:1:0516/132451.987499:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9587:1:0516/132451.992185:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9587:1:0516/132451.993646:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+(/usr/lib/firefox/firefox:4496): dconf-WARNING **: 19:24:51.906: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 145, in apport_excepthook
+    os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/crash/_usr_bin_mint-refresh-cache.0.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 557, in update
+    pulse_interval)
+apt_pkg.Error: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mint-refresh-cache", line 16, in <module>
+    cache.update()
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 559, in update
+    raise FetchFailedException(e)
+apt.cache.FetchFailedException: E:The repository 'https://dl.winehq.org/wine-builds/ubutu bionic Release' does not have a Release file.
+[21145:1:0516/205028.829905:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21145:1:0516/205028.830674:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21145:1:0516/205028.832192:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21145:1:0516/205028.835513:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21227:1:0516/205119.044898:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21227:1:0516/205119.046441:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21227:1:0516/205120.395178:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21227:1:0516/205120.396069:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21928:1:0516/211015.309901:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21928:1:0516/211015.310727:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21928:1:0516/211015.312191:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[21928:1:0516/211015.313040:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.

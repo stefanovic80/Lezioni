@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  20 MAY 2020 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  16 MAY 2020 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,7 +338,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <forzaElettrica.jpg, id=1, 405.515pt x 259.97125pt>
 File: forzaElettrica.jpg Graphic file (type jpg)
 <use forzaElettrica.jpg>
-Package pdftex.def Info: forzaElettrica.jpg  used on input line 46.
+Package pdftex.def Info: forzaElettrica.jpg  used on input line 45.
 (pdftex.def)             Requested size: 170.71652pt x 109.44502pt.
 <lineeCampoElettrico.jpg, id=2, 536.0025pt x 308.15125pt>
 File: lineeCampoElettrico.jpg Graphic file (type jpg)
@@ -348,47 +348,41 @@ Package pdftex.def Info: lineeCampoElettrico.jpg  used on input line 65.
 <forzaMagnetica.jpg, id=3, 508.90125pt x 279.0425pt>
 File: forzaMagnetica.jpg Graphic file (type jpg)
 <use forzaMagnetica.jpg>
-Package pdftex.def Info: forzaMagnetica.jpg  used on input line 95.
+Package pdftex.def Info: forzaMagnetica.jpg  used on input line 88.
 (pdftex.def)             Requested size: 227.62204pt x 124.81006pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./forzaElettrica.jpg> <./l
-ineeCampoElettrico.jpg>] [2 <./forzaMagnetica.jpg>] [3] [4]
-<dipoloElettrico.jpg, id=35, 478.78876pt x 346.29375pt>
+ineeCampoElettrico.jpg>]
+<dipoloElettrico.jpg, id=18, 478.78876pt x 346.29375pt>
 File: dipoloElettrico.jpg Graphic file (type jpg)
 <use dipoloElettrico.jpg>
-Package pdftex.def Info: dipoloElettrico.jpg  used on input line 323.
+Package pdftex.def Info: dipoloElettrico.jpg  used on input line 136.
 (pdftex.def)             Requested size: 227.62204pt x 164.6339pt.
- [5 <./dipoloElettrico.jpg>]
+ [2 <./forzaMagnetica.jpg> <./dipoloElettrico.jpg>]
 (./elettromagnetismo.aux) ) 
 Here is how much of TeX's memory you used:
- 4502 strings out of 492982
- 68834 string characters out of 6134896
- 142792 words of memory out of 5000000
- 8001 multiletter control sequences out of 15000+600000
- 10662 words of font info for 41 fonts, out of 8000000 for 9000
+ 4476 strings out of 492982
+ 68575 string characters out of 6134896
+ 137776 words of memory out of 5000000
+ 7983 multiletter control sequences out of 15000+600000
+ 7203 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,38p,600b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,5n,38p,600b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on elettromagnetismo.pdf (5 pages, 223710 bytes).
+mi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on elettromagnetismo.pdf (2 pages, 141511 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

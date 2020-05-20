@@ -1,0 +1,142 @@
+%\documentclass[12pt]{report}
+%\documentclass[12pt]{extreport}
+\documentclass[17pt]{extarticle}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+\usepackage{IEEEtrantools}
+\usepackage{cancel}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,264mm},
+ left=20mm,
+ top=10mm,
+ }
+
+\begin{document}
+
+\section{Campo elettrico}
+
+Abbiamo studiato la {\bf Legge di Coulomb}, espressa dalla seguente equazione matematica
+
+\begin{eqnarray}\label{eq:coulomb}
+	F = k \frac{q_1q_2}{r^2}
+\end{eqnarray}
+
+Secondo la quale la forza di interazione tra due particelle dotate di carica elettrica \'e proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza che le separa. Questa legge pu\'o essere espressa anche per mezzo di due equazioni separate:
+
+\begin{eqnarray}\label{eq:CElettrico}
+	E & = & k\frac{q}{r^2}\\ \nonumber
+	F & = & q_e\cdot E
+\end{eqnarray}
+
+La prima delle due \'e una equazione che ci da il valore del campo elettrico $E$ presente in un punto nello spazio a distanza $r$ da una carica elettrica $q$. La seconda, invece, esprime l'intensit\'a della forza che subisce una carica \emph{esploratrice} $q_e$ quando viene sottoposta ad un campo elettrico $E$. Le equazioni \ref{eq:coulomb} e \ref{eq:CElettrico} sono due modi differenti di esprimere matematicamente lo stesso fenomeno.
+
+\section{Campo gravitazionale}
+
+La Legge di {\bf Gravitazione Universale} di Newton, espressa dalla seguente equazione matematica
+
+\begin{eqnarray}\label{eq:gravitazionale}
+	F = G \frac{m_1m_2}{r^2}
+\end{eqnarray}
+
+Secondo la quale la forza di interazione tra due corpi dotati di massa $m_1$ e $M_2$ \'e proporzionale al prodotto delle masse e inversamente proporzionale al quadrato della distanza che le separa. Questa legge pu\'o essere espressa anche per mezzo di due equazioni separate:
+
+\begin{eqnarray}\label{eq:CGravitazionale}
+	g & = & G\frac{M}{r^2}\\ \nonumber
+	F & = & m\cdot g
+\end{eqnarray}
+
+La prima delle due \'e una equazione che ci da il valore del campo gravitazionale $g$ presente in un punto nello spazio a distanza $r$ da una massa $m$. La seconda, invece, esprime l'intensit\'a della forza che subisce una massa  $m$ quando viene sottoposta ad un campo gravitazionale $g$. Le equazioni \ref{eq:gravitazionale} e \ref{eq:CGravitazionale} sono due modi differenti di esprimere matematicamente lo stesso fenomeno.
+
+Matematicamente la Legge di Coulomb e la Legge di Gravitazione Universale sono identiche. Tuttavia una prima differenza tra le due \'e che mentre una carica elettrica pu\'o essere o positiva o negativa, una massa \emph{non} pu\'o assumere valori negativi. Quindi, mentre la forza elettrica pu\'o essere di natura attrattiva o di natura repulsiva, a seconda del segno delle cariche, la forga gravitazionale \'e sempre di natura attrattiva. 
+
+Un'altra differenza importante tra le due leggi la si deduce dalle costanti di proporzionalit\'a:
+
+\begin{eqnarray}
+	k & = & 8,98\cdot 10^9 Nm^2/C^2\\
+	G & = & 6,67\cdot 10^{-11} Nm^2/kg^2
+\end{eqnarray}
+
+La forza di gravitazione universale \'e molto meno intensa della forza elettrica e, quindi, risulta rilevabile \emph{soltanto} quando quest'ultima \'e completamente compensata da un numero di cariche positive pari al numero di cariche negative. In pratica, si ha un dominio della forza gravitazionale sulla forza elettrica per fenomeni su grande scala come, ad esempio, il moto dei pianeti intorno al sole. Invece, si ha un dominio della Legge di Coulomb sulla Legge di Gravitazione Universale per fenomeni su piccola scala come, ad esempio, elettroni, protoni, atomi e reazioni chimiche.
+
+\section{Forze magnetiche}
+
+%Forze elettrostatiche e forze gravitazionali sono due esempi di forze a distanza. E
+Forze elettrostatiche e forze gravitazionali non sono gli unici tipi di \emph{forze a distanza}. Un altro tipo di forza a distanza \'e la forza magnetica. \'E noto fin dall'antichit\'a, infatti, che ci sono materiali speciali che, messi a corta distanza gli uni rispetto agli altri, risentono di una forza di intersazione che pu\'o essere attrattiva o repulsiva a seconda della orientazione reciproca.
+
+
+
+Come nelle forze elettriche si distinguono cariche elettriche negative da cariche elettriche positive, cos\'i nel caso delle forze magnetiche si distingue \emph{Polo Nord Magnetico} dal \emph{Polo Sud Magnetico}. Anche in questo caso si ha che
+\begin{itemize}
+	\item due poli identici si respingono
+	\item due poli opposti si attraggono
+\end{itemize}
+
+come mostrato graficamente in figura \ref{fig:Magnete}
+
+
+\begin{figure}[h]	
+	\centering
+   	\includegraphics[width=2.5in]{Clipboard01.jpg}%eqRetta.jpg
+   	\caption{Separando un magnete in due parti differenti, non si riesce a dividere il polo nord dal polo sud.}
+   	\label{fig:Magnete}		
+\end{figure}
+
+Una prima differenza tra campo elettrico e campo magnetico \'e che mentre nel primo caso si riescono a separare nettamente le cariche positive dalle cariche negative, nel secondo caso non \'e MAI stato possibile separare il polo nord magnetico dal polo sud magnetico. Infatti, se prendo un magnete, esso sar\'a costituito da una parte dal polo sud e dall'altra dal polo nord (figura \ref{fig:Magnete}, parte di sopra). Se taglio in due questo magnete, comunque accade che i due poli non riesco a separarli (figura \ref{fig:Magnete}, parte di sotto), perch\'e ciascuna delle due parti separate sar\'a, a sua volta, costituita da un polo nord e un polo sud.
+
+
+
+
+
+
+
+
+\hspace{2cm}
+
+
+La forza magnetica \'e una forza di interazione a distanza che agisce
+
+\begin{itemize}
+	\item tra due magneti;
+	\item tra un magnete e un metallo;
+	\item tra un magnete e una corrente elettrica ;
+	\item tra due correnti elettriche.
+\end{itemize}
+
+
+Come la forza di Coulomb che si esercita tra due cariche elettriche viene espressa da una equazione matematica, cos\'i anche la forma magnetica esercitata tra due fili paralleli, lunghi $l$ e disposti a distanza $d$ l'uno dal'altro (figura \ref{fig:2filiParalleli}) viene espressa dalla seguente formula matematica:
+
+\begin{eqnarray}\label{eq:forzaMagnetica}
+	F = k_m\frac{i_1i_2l}{d}
+\end{eqnarray}
+
+Secondo la quale, tale forza di interazione \'e proporzionale al prodotto delle intensit\'a di corrente elettrica, alla lunghezza dei due fili e inversamente proporzionale alla distanza (e non al \emph{quadrato} della distanza). Come rappresentato in figura \ref{fig:2filiParalleli}, questa forza sar\'a attrattiva se i due fili hanno corrente che scorre nella stessa direzione e negativa se i due fili hanno corrente che scorre nella direzione opposta.
+
+
+\begin{figure}[h]	
+	\centering
+   	\includegraphics[width=2.5in]{Clipboard02.jpg}%eqRetta.jpg
+   	\caption{Schema della forza di interazione magnetica esercitata tra due fili percorsi da corrente elettrica}
+   	\label{fig:2filiParalleli}		
+\end{figure}
+
+Esattamente come negli altri due casi di forza a distanza (forza elettrica e forza gravitazionale), anche nel caso di forze magnetiche l'equazione che esprime tale effetto pu\'o essere separato in due termini:
+
+\begin{eqnarray}\label{eq:campoMagnetica}
+	B = k_m\frac{i}{d}\\ \nonumber
+	F = i_elB
+\end{eqnarray}
+
+Ove, la prima delle due precedenti equazioni esprime il valore del \emph{Campo Magnetico} B presente a una certa distanza $d$ da un filo percorso da corrente elettrica, la seconda equazione, invece, esprime la forza che una corrente elettrica subisce, quando \'e immersa in un campo magnetico B. Le equazioni \ref{eq:forzaMagnetica} e \ref{eq:campoMagnetica} sono due modi differenti di esprimere lo stesso fenomeno.
+
+\vspace{2cm}
+Mentre la sorgente della forza elettrica \'e la carica elettrica, sembrerebbe che la forza magnetica ha pi\'u sorgenti. 
+In realt\'a l'unica sorgente di forza magnetica \'e la corrente elettrica e l'unica entit\'a sopra la quale si esercita la forza magnetica \'e sempre la corrente elettrica. 
+
+Infatti, l'elettrone che orbita intorno al nucleo pu\'o essere assimilato ad una corrente elettrica microscopica di forma circolare, la presenza di forze di natura magnetica tra materiali speciali (i magneti), \'e dovuta a questo genere di correnti elettriche microscopiche che al loro interno si sommano dando vita ad un effetto macroscopico. Ci\'o accade perch\'e in questi materiali si ha una disposizione \emph{ordinata} degli atomi, tale per cui l'effetto di ciascuno di essi si somma e da vita ad un forza di interazione amgnetica macroscopica.
+
+\end{document}
